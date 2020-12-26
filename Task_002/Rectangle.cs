@@ -11,12 +11,12 @@
             this.side2 = side2;
         }
 
-        double AreaCalculator()
+       private double AreaCalculator()
         {
             return side1 * side2;
         }
 
-        double PerimeterCalculator()
+       private double PerimeterCalculator()
         {
             return (side1 + side2) * 2;
         }
