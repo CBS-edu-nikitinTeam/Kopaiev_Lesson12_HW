@@ -23,6 +23,9 @@ namespace Task_002
             Rectangle rectangle = new Rectangle(firstSide, secondSide);
             Console.WriteLine($"Area is {rectangle.Area}");
             Console.WriteLine($"Perimeter is {rectangle.Perimeter}");
+
+            // Delay
+            Console.ReadKey();
         }
     }
 }
