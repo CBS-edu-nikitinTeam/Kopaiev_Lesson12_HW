@@ -2,7 +2,8 @@
 {
     class Rectangle
     {
-        double side1, side2;
+        private double side1;
+        private double side2;
 
         // Construct
         public Rectangle(double side1, double side2)
@@ -11,12 +12,12 @@
             this.side2 = side2;
         }
 
-       private double AreaCalculator()
+        private double AreaCalculator()
         {
             return side1 * side2;
         }
 
-       private double PerimeterCalculator()
+        private double PerimeterCalculator()
         {
             return (side1 + side2) * 2;
         }
