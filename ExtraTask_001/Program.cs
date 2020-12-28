@@ -7,7 +7,7 @@ namespace ExtraTask_001
         static void Main(string[] args)
         {
             Address ad1 = new Address();
-            ad1.Index = 49000;
+            ad1.Index = 49000; // Используем блок инициализатора -> new Address() { Index = 49000 };
             Console.WriteLine(ad1.Index);
 
             ad1.Country = "UK";

@@ -4,11 +4,13 @@ using System;
 
 namespace Task_004
 {
-    class Figure 
+    class Figure
     {
-        private Point[] pointList;
+        private Point[] pointList; // Точнее pointArr, ведь это массив, а не список (List).
         private string figureType;
 
+        // Конечно, если значете как пользоваться классов List, то можно было сделать красивее, через "проваливание"
+        // конструктора. Но на данном этапе, так тоже не плохо!
         public Figure(Point point1, Point point2, Point point3)
         {
             pointList = new Point[3];

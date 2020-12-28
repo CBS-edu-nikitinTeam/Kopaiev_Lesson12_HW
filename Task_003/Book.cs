@@ -16,7 +16,8 @@
         public Book(string author, string title, string content)
         {
             CreateBookElement();
-            this.author.AuthorProperty = author;
+            this.author.AuthorProperty = author; // Слово Property можно не писать.
+                                                 // И так понятно, что это свойство.
             this.title.TitleProperty = title;
             this.content.ContentProperty = content;
         }

@@ -17,7 +17,7 @@ namespace Task_002
             if (!double.TryParse(Console.ReadLine(), out double secondSide))
             {
                 Console.WriteLine("Wrong input");
-                return;
+                return; // Подгледел у Володина :)
             }
 
             Rectangle rectangle = new Rectangle(firstSide, secondSide);
